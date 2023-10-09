@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  margin-top: 10%;
+  margin-left: auto;
+  background-color: rgba(240, 242, 245, 0.922);
+  width: 70% !important;
+  padding: 0.5rem;
+}
+
+.app .row--text-section h6 {
+  color: red;
+}
+
+.app .row--text-section p {
+  color: grey;
+}
+
+.app .row--text-section h6,
+.app .row--text-section h3 {
+  font-weight: bold;
+}
+
+.icon-img {
+  width: 100px !important;
+  height: auto;
+}
+
+.row--form {
+  margin-top: 1rem !important;
+  justify-content: space-between !important;
+  padding-left: 0.5rem;
+}
+
+.row--form .form-select {
+  margin-bottom: 0.75rem;
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0;
+}
+
+.row--form .btn {
+  text-align: center;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row--form-left-text {
+  padding: 0.5rem 0 !important;
+  font-weight: bold;
+}
+
+.input-form {
+  padding-left: 0 !important;
+}
+
+.output-col-no-val {
+  color: grey;
+  font-weight: bold;
+}
