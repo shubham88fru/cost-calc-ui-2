@@ -3,19 +3,19 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import construction from "./construction.png";
-import { useState } from "react";
+// import { useState } from "react";
 
 function FormInput({ calculateHandler }) {
-  const [campusSel, setCampusSel] = useState(false);
-  const [typeSel, setTypeSel] = useState(false);
+  //   const [campusSel, setCampusSel] = useState(false);
+  //   const [typeSel, setTypeSel] = useState(false);
 
-  function onCampusSel() {
-    setCampusSel(true);
-  }
+  //   function onCampusSel() {
+  //     setCampusSel(true);
+  //   }
 
-  function onTypeSel() {
-    setTypeSel(true);
-  }
+  //   function onTypeSel() {
+  //     setTypeSel(true);
+  //   }
 
   return (
     <Col xs={3}>
@@ -29,7 +29,7 @@ function FormInput({ calculateHandler }) {
             defaultChecked={false}
             aria-label="Default select example"
             required={true}
-            onSelect={onCampusSel}
+            // onSelect={onCampusSel}
           >
             <option>CAMPUS</option>
             <option value="TEMPE">TEMPE</option>
@@ -41,7 +41,7 @@ function FormInput({ calculateHandler }) {
             defaultChecked={false}
             aria-label="Default select example"
             required={true}
-            onSelect={onTypeSel}
+            // onSelect={onTypeSel}
           >
             <option>PROJECT TYPE</option>
             <option value="RENOVATION">RENOVATION</option>
